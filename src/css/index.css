@@ -1,0 +1,25 @@
+body{
+  background-color: #248df6;
+
+}
+body.content {
+   background:#6de2f1;
+   color:#424242;
+   width:50%;
+   max-width: 800px;
+   height: 600px;
+
+  }
+  div#container {
+    background:#6de2f1;
+    color:#424242;
+    width:50%;
+    max-width: 800px;
+    height: 600px;
+ 
+   }
+
+.form-content {
+    display:flex;
+    justify-content:center;
+  }  
