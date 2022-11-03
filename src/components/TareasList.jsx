@@ -40,7 +40,7 @@ const TareaList = () => {
         <Formulario addTarea={addTarea} />
         <br/>
         <h2 className="container border text-center text-primary"> -  Listado de Tareas  - </h2>
-        <ul className="list-group list-group-numbered">
+        <ul className="list-group list-group-numbered container border">
             {tareas.map((item) => (
                 <Tarea key={item.id} tarea={item} deleteTarea={deleteTarea} editarTarea={editarTarea} />
             ))}

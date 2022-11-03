@@ -1,25 +1,16 @@
-body{
-  background-color: #248df6;
-
+body,div{
+  background-color:#f1dc1a;
+  color:#424242;
+  width:50%;
+  max-width: 800px;
+  height: 600px;
 }
-body.content {
-   background:#6de2f1;
-   color:#424242;
-   width:50%;
-   max-width: 800px;
-   height: 600px;
 
-  }
-  div#container {
-    background:#6de2f1;
+div.root {
+    background-color:#6de2f1;
     color:#424242;
     width:50%;
     max-width: 800px;
     height: 600px;
  
-   }
-
-.form-content {
-    display:flex;
-    justify-content:center;
-  }  
+}
