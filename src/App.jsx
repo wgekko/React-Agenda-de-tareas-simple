@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className=""  >
                 
-        <h1 className="container border text-center text-info bg-dark "> App de agendar de tareas</h1>  
+        <h1 className="container border text-center text-info bg-dark ">  Agenda de tareas</h1>  
         <TareasList/>
         <br/>
         <p className="container border text-center"><em><u><strong> &copy; 2022 - Walter Gomez - Fullstack Developer </strong></u></em></p>      
